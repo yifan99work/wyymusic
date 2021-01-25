@@ -99,30 +99,193 @@
   margin: 0 20px 0 7px;
   padding: 0 15px 0 0;
 }
-.nav2 {
+.nav-wrapper {
   background: #c20c0c;
   width: 100%;
   height: 35px;
   border-top: 1px solid black;
-  padding: 0 580px;
 }
-.nav2 ul {
-  margin: 0 17px;
+.nav-wrapper .nav-inner {
+  background: pink;
+  width: 1100px;
+  margin: 0 auto;
 }
-.nav2 ul li:first-child {
+.nav-wrapper .nav-inner ul {
+  padding: 0 180px;
+}
+.nav-wrapper .nav-inner ul li:first-child {
   background: #9b0909;
   border-radius: 10px;
   height: 20px;
 }
-.nav2 ul li {
+.nav-wrapper .nav-inner ul li {
   float: left;
   margin: 7px 17px 0  ;
   padding: 0 13px;
 }
-.nav2 ul li a {
+.nav-wrapper .nav-inner ul li a {
   display: inline-block;
   text-decoration: none;
   color: #fff;
+  font-size: 12px;
+}
+.swiper1 {
+  height: 285px;
+  width: 100%;
+  background: pink;
+}
+.swiper1 .swiper2 {
+  height: 100%;
+  width: 980px;
+  background: green;
+  margin: 0 auto ;
+}
+.swiper1 .swiper2 .swiper-container {
+  width: 730px;
+  height: 100%;
+  background: yellow;
+  float: left;
+}
+.swiper1 .swiper2 .swiper-container .swiper-slide img {
+  width: 730px;
+}
+.swiper1 .swiper2 .swiper-rightbar {
+  background-image: url(images/客户端图.png);
+  width: 250px;
+  height: 100%;
+  position: relative;
+  float: left;
+  right: 0;
+}
+.swiper1 .swiper2 .swiper-rightbar .download {
+  position: absolute;
+  box-sizing: border-box;
+  width: 215px;
+  height: 56px;
+  background: #2364c2;
+  line-height: 56px;
+  border-radius: 3px;
+  left: 18px;
+  bottom: 44px ;
+  font-size: 20px;
+  color: #fff;
+  padding: 0 20px;
+  text-decoration: none;
+}
+.swiper1 .swiper2 .swiper-rightbar .download i {
+  font-size: 30px;
+}
+.swiper1 .swiper2 .swiper-rightbar .download:hover {
+  background: #1a55a6;
+}
+.mainbody {
+  width: 100%;
+  height: 800px;
+  background: #f5f5f5;
+}
+.mainbody .mainbodyinner {
+  background: orange;
+  width: 982px  ;
+  margin: 0 auto;
+}
+.mainbody .mainbodyinner .bodyleft {
+  width: 730px;
+  background: #fff;
+  float: left;
+}
+.mainbody .mainbodyinner .bodyleft .hot-wrapper .hottopbar {
+  position: relative;
+  margin: 0 21px;
+  height: 53px;
+  border-bottom: 2px solid #c20c0c;
+}
+.mainbody .mainbodyinner .bodyleft .hot-wrapper .hottopbar .hottitle {
+  position: absolute;
+  font-size: 20px;
+  left: 15px;
+  bottom: 10px;
+}
+.mainbody .mainbodyinner .bodyleft .hot-wrapper .hottopbar .hottitle a {
+  color: #000;
+  text-decoration: none;
+}
+.mainbody .mainbodyinner .bodyleft .hot-wrapper .hottopbar .categorybar {
+  position: absolute;
+  left: 110px;
+  bottom: 12px;
+}
+.mainbody .mainbodyinner .bodyleft .hot-wrapper .hottopbar .categorybar li {
+  float: left;
+  font-size: 12px;
+}
+.mainbody .mainbodyinner .bodyleft .hot-wrapper .hottopbar .categorybar li a {
+  color: #000;
+  text-decoration: none;
+}
+.mainbody .mainbodyinner .bodyleft .hot-wrapper .hottopbar .categorybar .line {
+  font-size: 5px;
+  margin: 0 5px;
+}
+.mainbody .mainbodyinner .bodyleft .hot-wrapper .hottopbar .more {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+.mainbody .mainbodyinner .bodyleft .hot-wrapper .hotbody {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mainbody .mainbodyinner .bodyleft .hot-wrapper .hotbody .cdlist {
+  width: 140px;
+  margin: 21px;
+}
+.mainbody .mainbodyinner .bodyleft .hot-wrapper .hotbody .cdlist .cdimage {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  background-image: url(images/推荐图.png);
+  background-size: 100% 100%;
+}
+.mainbody .mainbodyinner .bodyleft .hot-wrapper .hotbody .cdlist .cdimage .imageinfo {
+  position: absolute;
+  bottom: 0;
+  box-sizing: border-box;
+  height: 25px;
+  width: 100%;
+  border: 1px solid #000;
+  background: rgba(0, 0, 0, 0.5);
+  color: #e4e4e4;
+  font-size: 12px;
+}
+.mainbody .mainbodyinner .bodyleft .hot-wrapper .hotbody .cdlist .cdimage .imageinfo .iconerji {
+  float: left;
+  font-size: 12px;
+  margin: 5px;
+}
+.mainbody .mainbodyinner .bodyleft .hot-wrapper .hotbody .cdlist .cdimage .imageinfo p {
+  float: left;
+  margin-top: 5px;
+}
+.mainbody .mainbodyinner .bodyleft .hot-wrapper .hotbody .cdlist .cdimage .imageinfo .iconbofang {
+  float: right;
+  margin: 5px;
+}
+.mainbody .mainbodyinner .bodyleft .hot-wrapper .hotbody .cdlist .cdinfo {
+  height: 50px;
+  margin: 5px 0 0 5px;
+  font-size: 13px;
+  overflow: hidden;
+  text-align: left;
+  line-height: 16px;
+}
+.mainbody .mainbodyinner .bodyright {
+  float: left;
+}
+.mainbody .mainbodyinner .bodyright .userlogin {
+  width: 250px;
+  height: 123px;
+  background: #e8e8e8;
+  border: 1px solid #fff;
   font-size: 12px;
 }
 /*# sourceMappingURL=./index.css.map */

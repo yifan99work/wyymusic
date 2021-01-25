@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="./resets/normalize.css">
     <link rel="stylesheet" href="./resets/reset.css">
     <link rel="stylesheet" href="./fonticon/iconfont.css">
+
+    <link rel="stylesheet" href="./swiper-4.5.3/dist/css/swiper.min.css">
+    <script src="./swiper-4.5.3/dist/js/swiper.min.js"></script>
     <title>网易云音乐</title>
+    <script src="./index.js"></script>
+
 </head>
 <body>
     <div class="topbar-wrapper">
@@ -26,19 +31,101 @@
             <div class="rightbar">
                 <div class="search"><i class="iconfont iconsousuo"></i><input type="text" placeholder="音乐/视频/电台/用户"></div>
                 <div class="btn1"><p>创作者中心</p></div>
-                <div class="login">登录</div>
+                <div class="login" onclick="btn">登录</div>
             </div>
         </div>
     </div>
-    <div class="nav2">
-        <ul>
-            <li><a href="javascript:;">推荐</a></li>
-            <li><a href="javascript:;">排行榜</a></li>
-            <li><a href="javascript:;">歌单</a></li>
-            <li><a href="javascript:;">主播电台</a></li>
-            <li><a href="javascript:;">歌手</a></li>
-            <li><a href="javascript:;">新碟上架</a></li>
-        </ul>
+    <div class="nav-wrapper">
+        <div class="nav-inner">
+            <ul>
+                <li><a href="javascript:;">推荐</a></li>
+                <li><a href="javascript:;">排行榜</a></li>
+                <li><a href="javascript:;">歌单</a></li>
+                <li><a href="javascript:;">主播电台</a></li>
+                <li><a href="javascript:;">歌手</a></li>
+                <li><a href="javascript:;">新碟上架</a></li>
+            </ul>
+        </div>
     </div>
+    <div class="swiper1">
+        <div class="swiper2">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./images/109951165656946035.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/109951165660989669.jpg" alt=""> Slide 2</div>
+                <div class="swiper-slide"><img src="./images/109951165661482819.jpg" alt=""> Slide 3</div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+            
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            
+        </div>
+        <div class="swiper-rightbar"><a id="downloadbtn" class="download" href="javascript:;"><i class="iconfont icondownload"></i> 下载客户端</a></div>
+    </div>
+    </div>
+
+    <div class="mainbody">
+        <div class="mainbodyinner">
+            <div class="bodyleft">
+
+                <!-- 热门推荐 -->
+                <div class="hot-wrapper">
+                    <div class="hottopbar">
+                        <div class="hottitle">
+                            <a href="javascript:;">热门推荐</a>
+                        </div>
+                        <ul class="categorybar">
+                            <li><a href="javascript:;">华语</a></li>
+                            <li class="line">|</li>
+                            <li><a href="javascript:;">流行</a></li>
+                            <li class="line">|</li>
+                            <li><a href="javascript:;">摇滚</a></li>
+                            <li class="line">|</li>
+                            <li><a href="javascript:;">民谣</a></li>
+                            <li class="line">|</li>
+                            <li><a href="javascript:;">电子</a></li>
+                        </ul>
+                        <div class="more">更多</div>
+                    </div>
+
+                    <div class="hotbody">
+                        <div class="cdlist"><div class="cdimage"><div class="imageinfo"><i class="iconfont iconerji"></i><p>3441万</p><div class=" iconfont iconbofang"></div></div></div>
+                        <p class="cdinfo">心动演绎丨国人唱英文 深情潺潺入心扉</p></div>
+                        <div class="cdlist"><div class="cdimage"><div class="imageinfo"><i class="iconfont iconerji"></i><p>3441万</p><div class=" iconfont iconbofang"></div></div></div>
+                        <p class="cdinfo">[一周原创发现] 太一发声：拨开颓势，渴望月光</p></div>
+                        <div class="cdlist"><div class="cdimage"><div class="imageinfo"><i class="iconfont iconerji"></i><p>3441万</p><div class=" iconfont iconbofang"></div></div></div>
+                        <p class="cdinfo">有些心动一开始便覆水难收</p></div>
+                        <div class="cdlist"><div class="cdimage"><div class="imageinfo"><i class="iconfont iconerji"></i><p>3441万</p><div class=" iconfont iconbofang"></div></div></div>
+                        <p class="cdinfo">心动演绎丨国人唱英文 深情潺潺入心扉</p></div>
+                        <div class="cdlist"><div class="cdimage"><div class="imageinfo"><i class="iconfont iconerji"></i><p>3441万</p><div class=" iconfont iconbofang"></div></div></div>
+                        <p class="cdinfo">心动演绎丨国人唱英文 深情潺潺入心扉深情潺潺入心扉入心扉</p></div>
+                        <div class="cdlist"><div class="cdimage"><div class="imageinfo"><i class="iconfont iconerji"></i><p>3441万</p><div class=" iconfont iconbofang"></div></div></div>
+                        <p class="cdinfo">心动演绎丨国人唱英文 深情潺潺入心扉</p></div>
+                        <div class="cdlist"><div class="cdimage"><div class="imageinfo"><i class="iconfont iconerji"></i><p>3441万</p><div class=" iconfont iconbofang"></div></div></div>
+                        <p class="cdinfo">我试着把孤独藏进耳机</p></div>
+                        <div class="cdlist"><div class="cdimage"><div class="imageinfo"><i class="iconfont iconerji"></i><p>3441万</p><div class=" iconfont iconbofang"></div></div></div>
+                        <p class="cdinfo">心动演绎丨国人唱英文 深情潺潺入心扉</p></div>
+                     
+                        
+                       
+                    </div>
+                </div>
+
+                
+
+
+            </div>
+            <div class="bodyright">
+                <div class="userlogin">登录网易云音乐，可以享受无限收藏的乐趣，并且无限同步到手机</div>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+    
 </body>
 </html>
